@@ -24,7 +24,7 @@ activación (siempre ejecuten este antes de correr run.py)
 
 .\ .venv\Scripts\Activate.ps1
 
-
+el punto va pegado al slash, solo que no puedo ponerlos juntos DX
 
 estos comandos son de limpieza si algo llega a salir mal, obvio necesitan el entorno virtual activo:
 
@@ -263,6 +263,7 @@ params_encoded = urllib.parse.urlencode({'text': tts, 'speaker': 46})
 ## Credits
 
 This project is inspired by the work of shioridotdev. Special thanks to the creators of the technologies used in this project including VoiceVox Engine, DeepL, Whisper OpenAI, and VtubeStudio.
+
 
 
 
