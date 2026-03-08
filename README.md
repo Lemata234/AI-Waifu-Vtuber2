@@ -10,6 +10,88 @@ en el idioma en el que se le habla.
 
 Actualización: todo eso se logró, solo faltan los subtitulos
 
+actualización: casi jodo el proyecto, entonces debido a que fregué el entorno virtual de python original, debo siempre iniciar con un comando que lo active.
+
+este es el comando para crear el entorno virtual y este para ejecutarlo
+
+creación del entorno
+py -3.10 -m venv .venv
+
+activación (siempre ejecuten este antes de correr run.py)
+.\.venv\Scripts\Activate.ps1
+
+
+
+estos comandos son de limpieza si algo llega a salir mal, obvio necesitan el entorno virtual activo:
+
+# 1. Desinstalar todo (para empezar limpio)
+pip freeze | % { pip uninstall -y $_ }
+
+# 2. Instalar el requirements.txt limpio
+pip install -r requirements.txt
+
+estas son las dependencias usadas. si al correr la instrucción de requirements no se descarga alguno, deben descargarlo individualmente.
+
+alkana             0.0.3
+annotated-types    0.7.0
+anyio              4.12.1
+beautifulsoup4     4.14.3
+certifi            2026.2.25
+cffi               2.0.0
+charset-normalizer 3.4.5
+colorama           0.4.6
+comtypes           1.4.16
+deep-translator    1.11.4
+emoji              2.15.0
+exceptiongroup     1.3.1
+filelock           3.25.0
+fsspec             2026.2.0
+h11                0.16.0
+h2                 4.3.0
+hpack              4.1.0
+httpcore           1.0.9
+httpx              0.27.2
+hyperframe         6.1.0
+idna               3.11
+Jinja2             3.1.6
+keyboard           0.13.5
+MarkupSafe         3.0.3
+mecab-python3      1.0.12
+mpmath             1.3.0
+networkx           3.4.2
+numpy              2.2.6
+ollama             0.6.1
+pandas             2.3.3
+pip                26.0.1
+plac               1.4.5
+PyAudio            0.2.14
+pycparser          3.0
+pydantic           2.12.5
+pydantic_core      2.41.5
+pypiwin32          223
+pytchat            0.5.5
+python-dateutil    2.9.0.post0
+pyttsx3            2.99
+pytz               2026.1.post1
+pywin32            311
+requests           2.32.5
+setuptools         82.0.0
+six                1.17.0
+sniffio            1.3.1
+sounddevice        0.5.5
+soundfile          0.13.1
+soupsieve          2.8.3
+SpeechRecognition  3.14.6
+sympy              1.14.0
+torch              2.10.0
+tqdm               4.67.3
+typing_extensions  4.15.0
+typing-inspection  0.4.2
+tzdata             2025.3
+unidic             1.1.0
+urllib3            2.6.3
+wasabi             0.10.1
+
 
 # Support
 
@@ -177,6 +259,7 @@ params_encoded = urllib.parse.urlencode({'text': tts, 'speaker': 46})
 ## Credits
 
 This project is inspired by the work of shioridotdev. Special thanks to the creators of the technologies used in this project including VoiceVox Engine, DeepL, Whisper OpenAI, and VtubeStudio.
+
 
 
 
