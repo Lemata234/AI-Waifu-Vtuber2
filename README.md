@@ -15,9 +15,13 @@ actualización: casi jodo el proyecto, entonces debido a que fregué el entorno 
 este es el comando para crear el entorno virtual y este para ejecutarlo
 
 creación del entorno
+
 py -3.10 -m venv .venv
 
+
+
 activación (siempre ejecuten este antes de correr run.py)
+
 .\.venv\Scripts\Activate.ps1
 
 
@@ -259,6 +263,7 @@ params_encoded = urllib.parse.urlencode({'text': tts, 'speaker': 46})
 ## Credits
 
 This project is inspired by the work of shioridotdev. Special thanks to the creators of the technologies used in this project including VoiceVox Engine, DeepL, Whisper OpenAI, and VtubeStudio.
+
 
 
 
