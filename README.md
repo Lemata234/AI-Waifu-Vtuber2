@@ -3,6 +3,8 @@ que sea capaz de resolver muchas de sus dudas del codigo o inquietudes
 
 -Mata
 
+- son las 15:02 del 18/03/2026 para cuando escribes esto, quiero dejar en claro que este proyecto es originalmente de Ardha27 y en ningún momento pretendo robar su trabajo ni hacerlo pasar por propio. Quiero dejar en claro que, cualquiera que use el código, le deben dar credito a Ardha27 y a Lemata324.
+
 - Nota: ya es 17 de marzo, mombii ya tiene habilitado el chat en la consola
 
 DRIVE DEL ARCHIVO DEL MODEL.PT: https://drive.google.com/drive/folders/1uQ8XTQyBSxrwD7qRdGUeUIxTDaBD4Sfe?usp=sharing
@@ -42,6 +44,8 @@ pip freeze | % { pip uninstall -y $_ }
 
 # 2. Instalar el requirements.txt limpio
 pip install -r requirements.txt
+
+son las 15:02 del 18/03/2026 para cuando escribes esto, mombii ahora funciona con edge_tts para soportar más idiomas.
 
 estas son las dependencias usadas. si al correr la instrucción de requirements no se descarga alguno, deben descargarlo individualmente.
 
@@ -104,7 +108,7 @@ tzdata             2025.3
 unidic             1.1.0
 urllib3            2.6.3
 wasabi             0.10.1
-
+edge-tts
 
 # Support
 
