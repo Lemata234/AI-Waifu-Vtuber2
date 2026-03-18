@@ -3,6 +3,7 @@ que sea capaz de resolver muchas de sus dudas del codigo o inquietudes
 
 -Mata
 
+- Nota: ya es 17 de marzo, mombii ya tiene habilitado el chat en la consola
 
 DRIVE DEL ARCHIVO DEL MODEL.PT: https://drive.google.com/drive/folders/1uQ8XTQyBSxrwD7qRdGUeUIxTDaBD4Sfe?usp=sharing
 
