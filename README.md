@@ -1,3 +1,9 @@
+DE ANTEMANO PARA CUALQUIERA QUE LEA ESTO: Soy un vibe coder, apenas este es mi primer proyecto "serio" que no tiene mucho que ver con lo que me dedico, no esperen
+que sea capaz de resolver muchas de sus dudas del codigo o inquietudes
+
+-Mata
+
+
 DRIVE DEL ARCHIVO DEL MODEL.PT: https://drive.google.com/drive/folders/1uQ8XTQyBSxrwD7qRdGUeUIxTDaBD4Sfe?usp=sharing
 
 Actualización: esta versión es la que funciona con la integración de Ollama local, tienes ver en run.py que versión de ia es la que se ejecuta
